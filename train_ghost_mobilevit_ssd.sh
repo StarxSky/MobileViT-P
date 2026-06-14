@@ -18,7 +18,7 @@
 set -e
 
 # --------------- Configuration ---------------
-NUM_GPUS=${1:-4}
+NUM_GPUS=${1:-2}
 RESUME_FLAG=""
 if [[ "$*" == *"--resume"* ]]; then
     RESUME_FLAG="--common.auto-resume true"
